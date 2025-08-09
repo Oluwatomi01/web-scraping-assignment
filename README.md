@@ -1,22 +1,17 @@
 # Web Scraping Assessment
 
-This project demonstrates basic ethical web scraping in Python using the public test site [Books to Scrape](https://books.toscrape.com/).
+## Overview
+This project scrapes data from https://books.toscrape.com/ for educational purposes.
 
-## 📌 Features
-- Scrapes book titles, prices, and stock availability.
-- Uses `requests` and `BeautifulSoup`.
-- Respects ethical scraping practices (robots.txt-friendly, small number of requests, polite delay).
+## Ethical Considerations
+Only publicly available pages were scraped. No personal data or restricted content was accessed.
 
-## 🛠 Requirements
-Install dependencies:
+## Requirements
+- Python 3.x
+- requests
+- BeautifulSoup4
+
+## How to Run
 ```bash
 pip install -r requirements.txt
-```
-
-## ▶️ Run
-```bash
 python scraper.py
-```
-
-## 📄 Output
-Data will be saved to `books.csv`.
